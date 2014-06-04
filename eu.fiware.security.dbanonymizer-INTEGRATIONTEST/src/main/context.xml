@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- Specify a JDBC datasource -->
+
+
+ 
+    <Resource name="jdbc/censusdb" auth="Container"
+        type="javax.sql.DataSource" username="root" password="admin"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://frncew000002.dhcp.ncel.sap.corp:3306/census"
+        maxActive="10" maxIdle="4" />
+ 
+<!-- 
+    <Resource name="jdbc/censusdb" auth="Container"
+        type="javax.sql.DataSource" username="census" password="census"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://10.55.133.203:3306/census"
+        maxActive="10" maxIdle="4" />
+ -->
+
+</Context>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Policy>
+<Column>
+	<Name>Gender</Name>
+	<Type>identifier</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Firstname</Name>
+	<Type>identifier</Type>
+	<Hide>true</Hide>
+</Column>
+<Column>
+	<Name>Surname</Name>
+	<Type>identifier</Type>
+	<Hide>true</Hide>
+</Column>
+<Column>
+	<Name>Address</Name>
+	<Type>identifier</Type>
+	<Hide>true</Hide>
+</Column>
+<Column>
+	<Name>City</Name>
+	<Type>identifier</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>State</Name>
+	<Type>identifier</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Zip</Name>
+	<Type>identifier</Type>
+	<Hide>true</Hide>
+</Column>
+<Column>
+	<Name>Country</Name>
+	<Type>identifier</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Phone</Name>
+	<Type>identifier</Type>
+	<Hide>true</Hide>
+</Column>
+<Column>
+	<Name>Birthday</Name>
+	<Type>identifier</Type>
+	<Hide>true</Hide>
+</Column>
+<Column>
+	<Name>SSN</Name>
+	<Type>identifier</Type>
+	<Hide>true</Hide>
+</Column>
+<Column>
+	<Name>Email</Name>
+	<Type>identifier</Type>
+	<Hide>true</Hide>
+</Column>
+<Column>
+	<Name>Occupation</Name>
+	<Type>identifier</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Married</Name>
+	<Type>identifier</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Wine</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Fruit</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Milk</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Bread</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Special1</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Special2</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>OnlyW</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Drink</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Whiskey</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Meat</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Vegetable</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Shampoo</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Chocolate</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>BabyStuff</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Clothes</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Tools</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Electronic</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Outdoor</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Tunning</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>Furniture</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+<Column>
+	<Name>big_random</Name>
+	<Type>sensitive</Type>
+	<Hide>false</Hide>
+</Column>
+</Policy>

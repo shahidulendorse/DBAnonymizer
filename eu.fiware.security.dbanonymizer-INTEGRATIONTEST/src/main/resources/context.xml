@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- Specify a JDBC datasource -->
+
+    <Resource name="jdbc/censusdb" auth="Container"
+        type="javax.sql.DataSource" username="census" password="census"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/census"
+        maxActive="10" maxIdle="4" />
+
+
+</Context>

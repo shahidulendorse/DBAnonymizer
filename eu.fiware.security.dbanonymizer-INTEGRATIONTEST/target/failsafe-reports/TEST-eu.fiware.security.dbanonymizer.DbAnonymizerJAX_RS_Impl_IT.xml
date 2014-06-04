@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="1" time="0.818" errors="1" skipped="0" tests="2" name="eu.fiware.security.dbanonymizer.DbAnonymizerJAX_RS_Impl_IT">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_22\jre\bin"/>
+    <property name="java.vm.version" value="17.1-b03"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\I069922\Development\Workspaces\eclipse\workspace-jpaas\eu.fiware.security.dbanonymizer-INTEGRATIONTEST"/>
+    <property name="java.runtime.version" value="1.6.0_22-b04"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="C:\Users\I069922\Development\Workspaces\eclipse\workspace-jpaas\eu.fiware.security.dbanonymizer-INTEGRATIONTEST"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_22\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\I069922\Development\Workspaces\eclipse\workspace-jpaas\eu.fiware.security.dbanonymizer-INTEGRATIONTEST\target\surefire\surefirebooter3723305634578985166.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\I069922\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_22\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files\MiKTeX 2.9\miktex\bin\x64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft Application Virtualization Client;c:\Program Files (x86)\Open Text\View\bin;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files\Broadcom\WHL\;C:\Program Files\Broadcom\WHL\syswow64;C:\Program Files\Broadcom\WHL\SysWow64\;C:\Program Files\Broadcom\WHL\SysWow64\syswow64;C:\Program Files (x86)\Bazaar;C:\Program Files\SlikSvn\bin\;C:\Program Files\Perforce;C:\Program Files (x86)\Windows Live\Shared;C:\cygwin\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\I069922\Development\Tools\apache-maven-3.0.3-bin\apache-maven-3.0.3\bin;C:\Program Files\Java\jdk1.6.0_22\bin; C:\Users\I069922\Development\Tools\apache-ant-1.8.4-bin"/>
+    <property name="surefire.test.class.path" value="C:\Users\I069922\Development\Workspaces\eclipse\workspace-jpaas\eu.fiware.security.dbanonymizer-INTEGRATIONTEST\target\test-classes;C:\Users\I069922\Development\Workspaces\eclipse\workspace-jpaas\eu.fiware.security.dbanonymizer-INTEGRATIONTEST\target\classes;C:\Users\I069922\.m2\repository\org\apache\cxf\cxf-rt-frontend-jaxrs\2.6.1\cxf-rt-frontend-jaxrs-2.6.1.jar;C:\Users\I069922\.m2\repository\org\apache\cxf\cxf-api\2.6.1\cxf-api-2.6.1.jar;C:\Users\I069922\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.1.2\woodstox-core-asl-4.1.2.jar;C:\Users\I069922\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.1\stax2-api-3.1.1.jar;C:\Users\I069922\.m2\repository\org\apache\ws\xmlschema\xmlschema-core\2.0.2\xmlschema-core-2.0.2.jar;C:\Users\I069922\.m2\repository\org\apache\geronimo\specs\geronimo-javamail_1.4_spec\1.7.1\geronimo-javamail_1.4_spec-1.7.1.jar;C:\Users\I069922\.m2\repository\org\apache\cxf\cxf-rt-core\2.6.1\cxf-rt-core-2.6.1.jar;C:\Users\I069922\.m2\repository\com\sun\xml\bind\jaxb-impl\2.1.13\jaxb-impl-2.1.13.jar;C:\Users\I069922\.m2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;C:\Users\I069922\.m2\repository\org\apache\cxf\cxf-rt-bindings-xml\2.6.1\cxf-rt-bindings-xml-2.6.1.jar;C:\Users\I069922\.m2\repository\org\apache\cxf\cxf-rt-transports-http\2.6.1\cxf-rt-transports-http-2.6.1.jar;C:\Users\I069922\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.8.6\jackson-core-asl-1.8.6.jar;C:\Users\I069922\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.8.6\jackson-mapper-asl-1.8.6.jar;C:\Users\I069922\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.8.6\jackson-jaxrs-1.8.6.jar;C:\Users\I069922\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\I069922\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\I069922\.m2\repository\org\springframework\spring-web\3.0.6.RELEASE\spring-web-3.0.6.RELEASE.jar;C:\Users\I069922\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\I069922\.m2\repository\org\springframework\spring-beans\3.0.6.RELEASE\spring-beans-3.0.6.RELEASE.jar;C:\Users\I069922\.m2\repository\org\springframework\spring-context\3.0.6.RELEASE\spring-context-3.0.6.RELEASE.jar;C:\Users\I069922\.m2\repository\org\springframework\spring-aop\3.0.6.RELEASE\spring-aop-3.0.6.RELEASE.jar;C:\Users\I069922\.m2\repository\org\springframework\spring-expression\3.0.6.RELEASE\spring-expression-3.0.6.RELEASE.jar;C:\Users\I069922\.m2\repository\org\springframework\spring-asm\3.0.6.RELEASE\spring-asm-3.0.6.RELEASE.jar;C:\Users\I069922\.m2\repository\org\springframework\spring-core\3.0.6.RELEASE\spring-core-3.0.6.RELEASE.jar;C:\Users\I069922\.m2\repository\mysql\mysql-connector-java\5.1.20\mysql-connector-java-5.1.20.jar;C:\Users\I069922\.m2\repository\commons-discovery\commons-discovery\20040218.194635\commons-discovery-20040218.194635.jar;C:\Users\I069922\.m2\repository\commons-io\commons-io\2.3\commons-io-2.3.jar;C:\Users\I069922\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\I069922\.m2\repository\commons-pool\commons-pool\20030825.183949\commons-pool-20030825.183949.jar;C:\Users\I069922\.m2\repository\wsdl4j\wsdl4j\1.6.2\wsdl4j-1.6.2.jar;C:\Users\I069922\.m2\repository\org\apache\ws\commons\XmlSchema\1.1\XmlSchema-1.1.jar;C:\Users\I069922\.m2\repository\stax\stax-api\1.0\stax-api-1.0.jar;C:\Users\I069922\.m2\repository\javax\xml\jaxrpc-api\1.1\jaxrpc-api-1.1.jar;C:\Users\I069922\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\I069922\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.12\FastInfoset-1.2.12.jar;C:\Users\I069922\.m2\repository\javax\xml\bind\jsr173_api\1.0\jsr173_api-1.0.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Server Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\I069922"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="I069922"/>
+    <property name="java.class.path" value="C:\Users\I069922\Development\Workspaces\eclipse\workspace-jpaas\eu.fiware.security.dbanonymizer-INTEGRATIONTEST\target\test-classes;C:\Users\I069922\Development\Workspaces\eclipse\workspace-jpaas\eu.fiware.security.dbanonymizer-INTEGRATIONTEST\target\classes;C:\Users\I069922\.m2\repository\org\apache\cxf\cxf-rt-frontend-jaxrs\2.6.1\cxf-rt-frontend-jaxrs-2.6.1.jar;C:\Users\I069922\.m2\repository\org\apache\cxf\cxf-api\2.6.1\cxf-api-2.6.1.jar;C:\Users\I069922\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.1.2\woodstox-core-asl-4.1.2.jar;C:\Users\I069922\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.1\stax2-api-3.1.1.jar;C:\Users\I069922\.m2\repository\org\apache\ws\xmlschema\xmlschema-core\2.0.2\xmlschema-core-2.0.2.jar;C:\Users\I069922\.m2\repository\org\apache\geronimo\specs\geronimo-javamail_1.4_spec\1.7.1\geronimo-javamail_1.4_spec-1.7.1.jar;C:\Users\I069922\.m2\repository\org\apache\cxf\cxf-rt-core\2.6.1\cxf-rt-core-2.6.1.jar;C:\Users\I069922\.m2\repository\com\sun\xml\bind\jaxb-impl\2.1.13\jaxb-impl-2.1.13.jar;C:\Users\I069922\.m2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;C:\Users\I069922\.m2\repository\org\apache\cxf\cxf-rt-bindings-xml\2.6.1\cxf-rt-bindings-xml-2.6.1.jar;C:\Users\I069922\.m2\repository\org\apache\cxf\cxf-rt-transports-http\2.6.1\cxf-rt-transports-http-2.6.1.jar;C:\Users\I069922\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.8.6\jackson-core-asl-1.8.6.jar;C:\Users\I069922\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.8.6\jackson-mapper-asl-1.8.6.jar;C:\Users\I069922\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.8.6\jackson-jaxrs-1.8.6.jar;C:\Users\I069922\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\I069922\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\I069922\.m2\repository\org\springframework\spring-web\3.0.6.RELEASE\spring-web-3.0.6.RELEASE.jar;C:\Users\I069922\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\I069922\.m2\repository\org\springframework\spring-beans\3.0.6.RELEASE\spring-beans-3.0.6.RELEASE.jar;C:\Users\I069922\.m2\repository\org\springframework\spring-context\3.0.6.RELEASE\spring-context-3.0.6.RELEASE.jar;C:\Users\I069922\.m2\repository\org\springframework\spring-aop\3.0.6.RELEASE\spring-aop-3.0.6.RELEASE.jar;C:\Users\I069922\.m2\repository\org\springframework\spring-expression\3.0.6.RELEASE\spring-expression-3.0.6.RELEASE.jar;C:\Users\I069922\.m2\repository\org\springframework\spring-asm\3.0.6.RELEASE\spring-asm-3.0.6.RELEASE.jar;C:\Users\I069922\.m2\repository\org\springframework\spring-core\3.0.6.RELEASE\spring-core-3.0.6.RELEASE.jar;C:\Users\I069922\.m2\repository\mysql\mysql-connector-java\5.1.20\mysql-connector-java-5.1.20.jar;C:\Users\I069922\.m2\repository\commons-discovery\commons-discovery\20040218.194635\commons-discovery-20040218.194635.jar;C:\Users\I069922\.m2\repository\commons-io\commons-io\2.3\commons-io-2.3.jar;C:\Users\I069922\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\I069922\.m2\repository\commons-pool\commons-pool\20030825.183949\commons-pool-20030825.183949.jar;C:\Users\I069922\.m2\repository\wsdl4j\wsdl4j\1.6.2\wsdl4j-1.6.2.jar;C:\Users\I069922\.m2\repository\org\apache\ws\commons\XmlSchema\1.1\XmlSchema-1.1.jar;C:\Users\I069922\.m2\repository\stax\stax-api\1.0\stax-api-1.0.jar;C:\Users\I069922\.m2\repository\javax\xml\jaxrpc-api\1.1\jaxrpc-api-1.1.jar;C:\Users\I069922\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\I069922\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.12\FastInfoset-1.2.12.jar;C:\Users\I069922\.m2\repository\javax\xml\bind\jsr173_api\1.0\jsr173_api-1.0.jar;"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_22\jre"/>
+    <property name="service.url" value="http://localhost:8080/eu.fiware.security.dbanonymizer/services/DBA/"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="fr"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_22"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_22\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_22\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_22\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_22\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_22\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_22\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_22\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_22\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="C:\Users\I069922\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.653" classname="eu.fiware.security.dbanonymizer.DbAnonymizerJAX_RS_Impl_IT" name="testEvaluatePolicyByteArrays">
+    <failure message="expected:&lt;1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;0&gt;
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at eu.fiware.security.dbanonymizer.DbAnonymizerJAX_RS_Impl_IT.testEvaluatePolicyByteArrays(DbAnonymizerJAX_RS_Impl_IT.java:139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:119)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at $Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</failure>
+  </testcase>
+  <testcase time="0.113" classname="eu.fiware.security.dbanonymizer.DbAnonymizerJAX_RS_Impl_IT" name="testEvaluatePolicyRS2_Proxy">
+    <error message="" type="Status ">Status : 404
+Headers : 
+Allow : POST, GET, OPTIONS, HEAD
+Content-Length : 0
+Date : Thu, 18 Apr 2013 15:08:29 GMT
+Server : Apache-Coyote/1.1
+
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:278)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:571)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:540)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:205)
+	at $Proxy19.evaluatePolicy(Unknown Source)
+	at eu.fiware.security.dbanonymizer.DbAnonymizerJAX_RS_Impl_IT.testEvaluatePolicyRS2_Proxy(DbAnonymizerJAX_RS_Impl_IT.java:249)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:119)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at $Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</error>
+  </testcase>
+</testsuite>
